@@ -1,0 +1,130 @@
+
+
+.center{
+	margin: 0 auto;
+	width: 1349px;
+	padding: 0 10px;
+	overflow: auto;
+}
+.start{
+	background-image: url(../assets/ken..jpeg);
+	background-size: cover ;
+  	background-repeat:no-repeat;
+  	padding: 15% 0;
+}
+.start h1{
+    margin-left: 40px;
+    color: blue;
+
+
+}
+.start p {
+	color: #ffffff;
+	float: left;
+	width: 400px;
+	color: blue;
+	/*padding-bottom: 100px;*/
+    margin-left: 40px;
+	
+}
+
+ .logo {
+    position:absolute;
+    left:0%;
+    position:absolute;
+    top:10px; 
+    left:10px;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    float: left;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #233647;
+    text-align: right;
+    padding: 20px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    padding-top: 1px;
+}
+nav li a{
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+    font-family: arial;
+}
+nav li a:hover{
+    background-color: white;
+    color: #233647;
+}
+.fa {
+	color: #fff;
+	padding-right: 30px;
+	text-decoration: none;
+	padding-left: 30px;
+
+}
+.cont1{
+    text-align: center;
+    /*float: center;*/
+    
+}
+.about-cont{
+    background-color:;
+}
+
+.product1 img{
+    float: left;
+    margin-left: 30px;
+
+}
+.row{/*
+    margin: 8px -16px;*/
+ background-color:#2a3338 ;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+ 
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+.column button{
+    background-color: blue;
+    border-radius: 25px;
+    padding: 10px 26px;
+   outline: none;
+   text-align: center;
+}
+/*.main-cont{
+    background-color:#333;
+    
+}*/
+.celine{
+  margin-left: 60px;  
+}
+.main-cont{
+  background-color: #000000;
+}

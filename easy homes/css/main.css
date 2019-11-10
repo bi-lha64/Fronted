@@ -1,0 +1,236 @@
+body{
+    background-color: #cccccc; 
+   
+
+}
+.center{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1240px;
+    overflow: auto;
+
+}
+.main-top{
+background-color: #333;
+height: 27px;
+text-align: center;
+/*margin: 42px 0px;*/
+padding: 0px 15px;
+padding-bottom: 8px;
+
+}
+.cont1 a{
+    float: left;
+  text-decoration: none;
+  display: block;
+  color: #333;
+  padding-left:30px;
+  font-size: 17px;
+
+}
+.cont1 ul{
+    float: right;
+}
+.cont1 ul li{
+    display: inline;
+    padding: 1.6px 12.8px;
+    color: #fff;
+}
+
+
+.logo{
+    float: left;
+    width: 150px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 50px;
+    /*margin-right: 20px;*/
+   /* margin-top: 15px;
+    vertical-align: top;*/
+    display: inline-block;
+}
+.navigation-bar {
+    width: 100%;  
+    height: 60px; 
+}
+
+
+.navigation-bar a {
+ text-decoration: none;
+ text-transform: uppercase;
+   float: right;
+    margin-right: 20px;
+    height: 50px;        
+   line-height: 80px; 
+
+    padding-right: 30px;
+ }  
+ .navigation-bar ul{
+  float: right;
+
+ } 
+ .hero img{
+  width: 100%;
+ }
+ .about h2{
+  text-align: center;
+  text-transform: uppercase;
+ }
+/*.about p{
+  float: left;
+
+}*/
+.about{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+.about button{
+float: center;
+text-align: center;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 14px;
+
+border-radius:25px;
+
+}
+.about button:hover {
+  background-color: RoyalBlue;
+}
+.mag1 img{
+width:500px;
+height: 300px;
+}
+.mag2{
+  float: right;
+  width: 500px;
+  text-align: justify;
+
+}
+.mag3 img{
+width:500px;
+height: 300px;
+float: right;
+}
+.mag4{
+  float: left;
+  width: 500px;
+  text-align: justify;
+
+}
+.mag1 button{
+  padding: 10px 28px;
+   background-color:RoyalBlue;
+ 
+ outline: none;
+  border-radius:25px;
+
+}
+.mag1 button:hover {
+  background-color: DodgerBlue;
+}
+.mag3 button{
+   background-color: RoyalBlue;
+  padding: 10px 28px;
+ outline: none;
+  border-radius:25px;
+
+}
+.mag3 button:hover {
+  background-color: DodgerBlue;
+}
+.wrapper{
+  width: 100%;
+  max-width: 680px;
+  margin: 100px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.content h1{
+  letter-spacing: 1px;
+}
+.form{
+  width: 100%;
+  margin: 25px 0;
+
+}
+.top-form,.middle-form,.bottom-form{
+width: 100%;
+min-height: 65px;
+margin: 10px 0;
+overflow: hidden;
+
+}
+.form input[type="text"],.form textarea{
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  border:2px solid #fff;
+  border-radius: 2px;
+  outline: none;
+  transition: all 0.2 ease;
+}
+.form input:focus,.form textarea:focus{
+border-color: #4ca1af;
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.0125),0,0,8px rgba(76,161,175,0.5);
+}
+.form .label{
+  margin-bottom: 5px;
+  text-transform: capitalize; 
+}
+/*.top-form .inner-form{
+  width: 30px;
+  float: left;
+  margin-right: 5px;
+}*/
+.top-form .inner-form{
+  margin-right: 0;
+
+  }
+  .middle-form{
+    clear: both;
+  }
+  .botton-form textarea{
+    height: 120px;
+  }
+  .btn{
+    background-color: #4ca1af;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+  ::-webkit-input-placeholder{
+     font-family: 'Montserrat', sans-serif;
+     text-transform: capitalize;
+  }
+  @media screen and(max-width: 460px){
+    .wrapper{
+      margin: 25px auto 0;
+
+    }
+    .top-form.inner-form{
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  @media screen and(max-width: 460px){
+    .navigation-bar{
+      margin: 25px auto 0;
+}
+    
+      @media screen and(max-width: 460px){
+    .about{
+      margin: 25px auto 0;
+
+    }
